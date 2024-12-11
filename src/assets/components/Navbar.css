@@ -1,0 +1,14 @@
+
+@media (min-width: 1280px){ 
+    nav .pack ul{
+        gap: 22rem;
+    }}
+    @media (min-width: 1024px){ 
+        .pack{
+            gap: 17rem;
+        }}
+    @media (min-width: 1280px){ 
+        .pack{
+            gap: 27rem;
+        }}
+        
