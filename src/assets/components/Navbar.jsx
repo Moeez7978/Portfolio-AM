@@ -18,7 +18,7 @@ const Navbar = () => {
                         <div className="menu md:flex md:flex-row gap-5 justify-center items-center">
                             <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Home</a> </li>
                             <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">About</a> </li>
-                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Services</a> </li>
+                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Blog</a> </li>
                             <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Contact</a> </li>
                         </div>
                         {/* list of icons */}

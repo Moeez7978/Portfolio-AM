@@ -6,6 +6,8 @@ import Navbar from './assets/components/Navbar.jsx'
 import Main from './assets/components/Main.jsx'
 import About from './assets/components/About.jsx'
 import Tech from './assets/components/Tech.jsx'
+import Experience from './assets/components/Experience.jsx'
+import Contact from './assets/components/Contact.jsx'
 
 function App() {
 
@@ -30,6 +32,8 @@ function App() {
         <Main />
         <About />
         <Tech />
+        <Experience />
+        <Contact />
       </>
       )
 }
