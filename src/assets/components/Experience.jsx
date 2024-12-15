@@ -4,7 +4,7 @@ import {Projects} from '/public/data.js'
 const Experience = () => {
   return (
     <>
-    <div className='experience flex flex-col gap-20 w-full justify-center p-2 border-b-2 border-slate-400 pb-10'>
+    <div className='experience flex flex-col gap-20 w-full justify-center p-2 border-b-2 border-slate-400 pb-10 max-w-7xl mx-auto'>
         <h1 className='text-4xl font-thin text-slate-50 text-center mt-10'>Experience</h1>
       <div className="container items-center mx-auto">
     <div className="packet flex flex-col justify-center items-center align-middle gap-16">

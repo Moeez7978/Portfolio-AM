@@ -9,6 +9,7 @@ import Tech from './assets/components/Tech.jsx'
 import Experience from './assets/components/Experience.jsx'
 import Contact from './assets/components/Contact.jsx'
 
+
 function App() {
 
 
