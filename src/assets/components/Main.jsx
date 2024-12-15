@@ -14,13 +14,13 @@ const Main = () => {
   return (
     <>
     <div className="packet w-full">
-      <div className="container flex flex-col md:flex-row justify-center gap-6 md:gap-44 lg:gap-60 items-center my-auto p-8 border-b-2 border-slate-400 max-w-7xl mx-auto">
+      <div className="container flex flex-col md:flex-row justify-center gap-6 md:gap-44 lg:gap-60 items-center my-auto p-8 border-b-2 border-slate-400 md:max-w-7xl mx-auto">
         <div className="textcontent text-w flex flex-col gap-2 ">
             <div className="name flex flex-col gap-4">
           <motion.h1 
           variants={container(0)}
           initial="hidden"
-          animate="show"
+          whileInView="show"
           className='text-4xl font-thin text-slate-50 '>Abdul Moeez</motion.h1>
           <motion.span 
              variants={container(0.5)}
@@ -32,16 +32,17 @@ const Main = () => {
             <motion.p
                variants={container(1)}
                initial="hidden"
-               animate="show">
+               whileInView="show">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aut quasi aliquid eaque illo odio nam dicta soluta. Similique veniam, id voluptate atque incidunt molestias nobis consectetur! Repudiandae, ut quod!</motion.p>
           </div>
         </div>
         <div className="visualcontent w-full lg:w-1/2 lg:p-8 mt-5 ">
           <motion.img
             
-            variants={container(0)}
-          initial="hidden"
-          animate="show"
+            
+          initial={{x:100,opacity:0}}
+          whileInView={{x:0,opacity:1}}
+          transition={{duration : 0.5,delay : 0.8}}
            src={Profile} alt="" className='rounded-xl' width={"800px"}/>
         </div>
       </div>
