@@ -33,7 +33,7 @@ const Main = () => {
                variants={container(1)}
                initial="hidden"
                whileInView="show">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aut quasi aliquid eaque illo odio nam dicta soluta. Similique veniam, id voluptate atque incidunt molestias nobis consectetur! Repudiandae, ut quod!</motion.p>
+               I am a passionate and dedicated front-end developer with a solid foundation in creating dynamic and responsive web applications. My journey in web development has equipped me with strong skills in HTML, CSS, JavaScript, and modern frameworks like React. I thrive on transforming ideas into seamless user experiences, utilizing my attention to detail and problem-solving abilities.</motion.p>
           </div>
         </div>
         <div className="visualcontent w-full lg:w-1/2 lg:p-8 mt-5 ">
