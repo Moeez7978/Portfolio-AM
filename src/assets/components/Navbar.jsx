@@ -11,8 +11,8 @@ const Navbar = () => {
     console.log(isOpen);
     return (
         <>
-            <nav className='bg-transparent p-3 flex flex-row justify-between md:w-full border-b-2 border-slate-400'>
-                <div className="pack flex flex-col md:flex-row md:justify-evenly md:w-full md:gap-28 ">
+            <nav className='bg-transparent p-3 flex flex-row justify-between md:w-svw border-b-2 border-slate-400'>
+                <div className="pack flex flex-col md:flex-row md:justify-evenly md:w-svw md:gap-28 ">
                 <div className="logo flex justify-center items-center font-bold text-3xl cursor-pointer text-white">MZ</div>
                 <ul className={` md:flex md:items-center md:gap-16 lg:gap-40 xl:gap-72 md:justify-between  w-full md:w-full ${isOpen ? 'block' : 'hidden'}`}>
                         <div className="menu md:flex md:flex-row gap-5 justify-center items-center">

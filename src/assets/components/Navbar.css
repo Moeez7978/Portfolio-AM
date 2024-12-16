@@ -1,7 +1,7 @@
 
 @media (min-width: 1280px){ 
     nav .pack ul{
-        gap: 22rem;
+        gap: 20rem;
     }}
     @media (min-width: 1024px){ 
         .pack{

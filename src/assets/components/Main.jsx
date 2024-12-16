@@ -16,7 +16,7 @@ const Main = () => {
     <div className="packet w-full">
       <div className="container flex flex-col md:flex-row justify-center gap-6 md:gap-44 lg:gap-60 items-center my-auto p-8 border-b-2 border-slate-400 md:max-w-7xl mx-auto">
         <div className="textcontent text-w flex flex-col gap-2 ">
-            <div className="name flex flex-col gap-4">
+            <div className="name flex flex-col gap-4 text-center md:text-left">
           <motion.h1 
           variants={container(0)}
           initial="hidden"
@@ -28,7 +28,7 @@ const Main = () => {
              animate="show"
           className='text-xl font-bold italic bg-gradient-to-r from-purple-900 via-slate-400 to-rose-300 bg-clip-text text-transparent tracking-tight'>Front-end Developer</motion.span>
           </div>
-          <div className="summary flex flex-wrap text-wrap w-auto text-white">
+          <div className="summary flex flex-wrap text-wrap w-auto text-white text-center md:text-left">
             <motion.p
                variants={container(1)}
                initial="hidden"
