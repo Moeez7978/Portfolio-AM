@@ -16,10 +16,11 @@ const Navbar = () => {
                 <div className="logo flex justify-center items-center font-bold text-3xl cursor-pointer text-white">MZ</div>
                 <ul className={` md:flex md:items-center md:gap-16 lg:gap-40 xl:gap-72 md:justify-between  w-full md:w-full ${isOpen ? 'block' : 'hidden'}`}>
                         <div className="menu md:flex md:flex-row gap-5 justify-center items-center">
-                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Home</a> </li>
-                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">About</a> </li>
-                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Blog</a> </li>
-                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="#" className="">Contact</a> </li>
+                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="/" className="">Home</a> </li>
+                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="/" className="">About</a> </li>
+                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="/" className="">Blog</a> </li>
+                            <li className="my-2 md:my-0 md:mx-2 text-white"> <a href="/" className="">Contact</a> </li>
+                            
                         </div>
                         {/* list of icons */}
                         <div className="icons ">

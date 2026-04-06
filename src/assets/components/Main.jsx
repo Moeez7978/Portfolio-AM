@@ -26,7 +26,7 @@ const Main = () => {
              variants={container(0.5)}
              initial="hidden"
              animate="show"
-          className='text-xl font-bold italic bg-gradient-to-r from-purple-900 via-slate-400 to-rose-300 bg-clip-text text-transparent tracking-tight'>Full Stack Developer</motion.span>
+          className='text-xl font-bold italic bg-gradient-to-r from-purple-900 via-slate-400 to-rose-300 bg-clip-text text-transparent tracking-tight'>Full Stack Developer & Automation Engineer</motion.span>
           </div>
           <div className="summary flex flex-wrap text-wrap w-auto text-white text-center md:text-left">
             <motion.p
