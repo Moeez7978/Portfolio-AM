@@ -11,6 +11,11 @@ jobs:
         - name: Checkout Repo
           uses: actions/checkout@v3
 
+        - name: SSH Authentication
+          uses: webfactory/ssh-agent@v0.7.0
+          with:
+            ssh-private-key:${{ secrets.SSH_PRIVATE_KEY }
+            
         - name: deploy
           run : |
             ssh -o StrictHostKeyChecking=no ubuntu@54.227.126.50 << 'EOF'
